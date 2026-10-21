@@ -1,0 +1,91 @@
+/* ==========================================================================
+   1. HERANÇA CSS (Estilos Globais)
+   ========================================================================== */
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* ==========================================================================
+   2. SELEÇÃO POR TAG
+   ========================================================================== */
+header {
+    margin-bottom: 2px;
+}
+
+h2 {
+    color: #1a365d;
+}
+
+footer {
+    color: #718096;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Estrutura visual opcional para organizar o main e o aside lado a lado */
+main {
+    display: flex;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+section {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+}
+
+/* ==========================================================================
+   3. SELEÇÃO POR ID
+   ========================================================================== */
+#cabecalho-principal {
+    background-color: #0d6efd;
+    color: #ffffff;
+    text-align: center;
+    padding: 4px;
+}
+
+/* ==========================================================================
+   4. SELEÇÃO POR CLASSE
+   ========================================================================== */
+.card-noticia {
+    border: 1px solid #cccccc;
+    padding: 4px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+.botao {
+    border: none;
+    background-color: #0d6efd;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #0b5ed7;
+}
+
+.alerta {
+    font-weight: bold;
+    color: #d9534f;
+}
+
+/* ==========================================================================
+   5. DESAFIO EXTRA (Múltiplas Classes e Sobrescrita)
+   ========================================================================== */
+.destaque {
+    border-color: #0d6efd;
+    background-color: #e7f1ff;
+}
